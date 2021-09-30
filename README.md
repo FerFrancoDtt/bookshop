@@ -13,6 +13,13 @@ cds deploy
 https://github.com/SAP-samples/cloud-cap-samples
 https://github.com/SAP-samples/cloud-cap-nodejs-codejam/tree/master/exercises/09
 
+npm install @sap/cds-dk -g
+cds add --help
+cds add hana
+cds build --production
+npm add hdb --save
+cds deploy --to hana
+
 # Getting Started
 
 Welcome to your new project.
