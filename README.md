@@ -11,6 +11,7 @@ cds deploy
 
 # Git Projeto original
 https://github.com/SAP-samples/cloud-cap-samples
+
 https://github.com/SAP-samples/cloud-cap-nodejs-codejam/tree/master/exercises/09
 
 npm install @sap/cds-dk -g
@@ -19,6 +20,10 @@ cds add hana
 cds build --production
 npm add hdb --save
 cds deploy --to hana
+
+mbt build
+cf deploy mta_archives/bookshop_1.0.0.mtar
+
 
 # Getting Started
 
