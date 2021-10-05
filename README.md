@@ -1,30 +1,3 @@
-# Comandos
-npm install sqlite3 -D
-cds deploy --to sqlite:bookshop.db
-
-cds compile .\db\schema.cds
-cds compile .\db\schema.cds -2 sql
-cds compile .\srv\catalog-service.cds -2 edmx
-cds compile .\srv\stats-service.cds -2 sql
-
-cds deploy
-
-# Git Projeto original
-https://github.com/SAP-samples/cloud-cap-samples
-
-https://github.com/SAP-samples/cloud-cap-nodejs-codejam/tree/master/exercises/09
-
-npm install @sap/cds-dk -g
-cds add --help
-cds add hana
-cds build --production
-npm add hdb --save
-cds deploy --to hana
-
-mbt build
-cf deploy mta_archives/bookshop_1.0.0.mtar
-
-
 # Getting Started
 
 Welcome to your new project.
