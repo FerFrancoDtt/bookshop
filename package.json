@@ -12,6 +12,7 @@
     "hdb": "^0.18.3"
   },
   "devDependencies": {
+    "@sap/hdi-deploy": "^4.2.0",
     "sqlite3": "^5.0.2"
   },
   "scripts": {
@@ -23,9 +24,10 @@
     },
     "requires": {
       "db": {
-        "kind": "sql",
+        "kind": "sqlite",
+        "model": "*",
         "credentials": {
-          "database": "database/bookshop.db"
+          "database": "bookshop.db"
         }
       }
     }

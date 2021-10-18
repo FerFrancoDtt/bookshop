@@ -10,10 +10,10 @@ cf install-plugin multiapps
 
 cds deploy --to sqlite:bookshop.db
 
-cds compile .\db\schema.cds
-cds compile .\db\schema.cds -2 sql
-cds compile .\srv\catalog-service.cds -2 edmx
-cds compile .\srv\stats-service.cds -2 sql
+cds compile ./db/schema.cds
+cds compile ./db/schema.cds -2 sql
+cds compile ./srv/catalog-service.cds -2 edmx
+cds compile ./srv/stats-service.cds -2 sql
 
 cds deploy
 
