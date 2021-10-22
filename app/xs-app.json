@@ -7,6 +7,6 @@
         "localDir": "webapp/"
     }, {
         "source": "^(.*)$",
-        "destination": "srv-binding"
+        "destination": "srv-api"
     }]
 }

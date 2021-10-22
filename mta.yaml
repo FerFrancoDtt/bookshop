@@ -47,7 +47,6 @@ modules:
           strictSSL: true
           name: srv-api
           url: ~{srv-url}
-
   # -------------------- SIDECAR MODULE ------------------------
   - name: bookshop-db-deployer
     # ------------------------------------------------------------
