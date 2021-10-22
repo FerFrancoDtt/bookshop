@@ -7,6 +7,6 @@
         "localDir": "webapp/"
     }, {
         "source": "^(.*)$",
-        "destination": "srv-api"
+        "destination": "bookshop-srv-api"
     }]
 }

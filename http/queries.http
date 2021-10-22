@@ -10,4 +10,4 @@ Content-Type: application/json
 POST http://localhost:4004/catalog/Orders
 Content-Type: application/json
 
-{"ID": "3ae4880c-a34f-4e03-877d-312ccfe03fc2","book_ID": 421, "quantity": 10}
+{"ID": "3ae4880c-a34f-4e03-877d-312ccfe03fc5","book_ID": 421, "quantity": 10}
